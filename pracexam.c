@@ -70,6 +70,10 @@ int orders(){
 		else if (addonC == 14){
 			addonPrice = 79;
 		}
+		else{
+			printf("Invalid. Please Try Again!");
+			return 0;
+		}
 	}
 	
 	else if (strcmp(addonChoice, "n") != 0 || strcmp(addonChoice, "n") != 0){
